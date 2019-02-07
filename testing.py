@@ -74,10 +74,10 @@ def compressBinary(binary):
     return compressBin
 
 print compressBinary(decimalToBinary(26.2257,16))
-#print binaryToDecimal(decimalToBinary(26.2257,16),23)
-#print "\n\n"
-#i=0
-#for i in range(0,20):
-#    print "\n"
-#    print binaryToDecimal(decimalToBinary(article_read.temperature[i],16),23)
-#    print article_read.temperature[i]
+print binaryToDecimal(decimalToBinary(26.2257,16),23)
+print "\n\n"
+i=0
+for i in range(0,20):
+   print "\n"
+   print binaryToDecimal(decimalToBinary(article_read.temperature[i],16),23)
+   print article_read.temperature[i]
